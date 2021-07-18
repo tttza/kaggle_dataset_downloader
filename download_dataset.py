@@ -33,8 +33,3 @@ def get_dataset(target: str):
             else:
                 raise Exception(r.stderr)
     print('Donwload Completed: ' + target)
-
-
-if __name__ == '__main__':
-    get_dataset('commonlitreadabilityprize')
-    get_dataset("rhtsingh/robertaitpt")
