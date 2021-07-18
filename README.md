@@ -39,7 +39,7 @@ Then paste below and run.
 
 Each dataset, you have to copy dataset name.
 
-When you click "Copy API command" in the dataset page, you will get above.
+When you click "Copy API command" in the dataset page, you will get below.
 
 ```kaggle datasets download -d <username>/<dataset name>```
 
@@ -49,7 +49,7 @@ Or part of dataset url also work.
 
 
 
-Then, just copy ```<username>/<dataset name>``` and paste it like above and run.
+Then, just copy ```<username>/<dataset name>``` and paste it like below and run.
 
 ```ipynb
 !git clone https://github.com/tttza/kaggle_dataset_downloader.git
