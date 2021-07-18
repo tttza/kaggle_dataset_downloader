@@ -66,3 +66,5 @@ download_dataset.get_dataset("<competition name>")
 # NOTE
 
 I am not sure about the specifics of the kaggle apis, so if you find a case where the downloader does not work properly, please feel free to open an issue.
+
+Usage in Japanese is [here](https://tic-memo.netlify.app/posts/kaggle-download-data/).
