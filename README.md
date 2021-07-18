@@ -37,11 +37,17 @@ Then paste below and run.
 
 # Usage
 
-Each dataset, you have to copy API command.
+Each dataset, you have to copy dataset name.
 
 When you click "Copy API command" in the dataset page, you will get above.
 
 ```kaggle datasets download -d <username>/<dataset name>```
+
+Or part of dataset url also work.
+
+```https://www.kaggle.com/<username>/<dataset name>```
+
+
 
 Then, just copy ```<username>/<dataset name>``` and paste it like above and run.
 
@@ -56,3 +62,7 @@ If the dataset is competition dataset, change last line to below.
 ```ipynb
 download_dataset.get_dataset("<competition name>")
 ```
+
+# NOTE
+
+I am not sure about the specifics of the kaggle apis, so if you find a case where the downloader does not work properly, please feel free to open an issue.
