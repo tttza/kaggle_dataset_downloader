@@ -1,4 +1,5 @@
 import subprocess
+import glob
 
 
 def get_dataset(target: str):
@@ -32,4 +33,8 @@ def get_dataset(target: str):
                 raise Exception(r.stdout)
             else:
                 raise Exception(r.stderr)
+    files = glob.glob('./download/' + dirname + '/*')
+    for f in files:
+        if not f.endswith('.zip'):
+            subprocess.run(f'mv {f} ../input/{dirname}/', shell=True, capture_output=True)
     print('Donwload Completed: ' + target)
